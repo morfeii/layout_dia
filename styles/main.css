@@ -91,8 +91,8 @@ ul {
     width: 490px; }
     @media (max-width: 1024px) {
       .header__content {
-        margin: 168px auto;
-        padding: 20px 0;
+        margin: 0 auto;
+        padding: 100px 20px;
         text-align: center; } }
   .header__heading {
     font-size: 3.2rem;
@@ -101,7 +101,8 @@ ul {
     letter-spacing: -2px; }
     @media (max-width: 1024px) {
       .header__heading {
-        font-size: 3.5rem; } }
+        font-size: 3.5rem;
+        line-height: 1.2; } }
   .header__text {
     margin-top: 32px;
     font-family: "OpenSans", sans-serif;
@@ -278,6 +279,9 @@ ul {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     color: #6c788b; }
+  @media (max-width: 1024px) {
+    .about-us {
+      padding: 100px 20px; } }
 
 .approach {
   position: relative;
@@ -339,6 +343,10 @@ ul {
     width: 45%;
     height: 70%;
     border-top-left-radius: 200px; }
+  @media (max-width: 1024px) {
+    .approach {
+      margin: 0;
+      padding: 100px; } }
 
 .components {
   position: relative;
@@ -347,6 +355,9 @@ ul {
   .components__wrapper {
     width: 40%;
     text-align: center; }
+    @media (max-width: 1024px) {
+      .components__wrapper {
+        width: 90%; } }
   .components__heading {
     font-weight: 600;
     font-size: 2.6rem;
@@ -360,6 +371,9 @@ ul {
     font-size: 1.2rem;
     line-height: 150%;
     color: #6c788b; }
+  @media (max-width: 1024px) {
+    .components {
+      padding: 100px 20px; } }
 
 .item-small {
   position: absolute;
@@ -473,6 +487,9 @@ ul {
     font-size: 0.7rem;
     line-height: 150%;
     color: #6c788b; }
+  @media (max-width: 1024px) {
+    .expertise {
+      padding: 100px 20px; } }
 
 .process {
   padding: 230px 20px 0; }
@@ -509,6 +526,9 @@ ul {
   .process__list {
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%; }
+  @media (max-width: 1024px) {
+    .process {
+      padding: 200px 20px 0; } }
 
 .card-list {
   display: -webkit-box;
@@ -613,11 +633,19 @@ ul {
     font-size: 0.65rem;
     letter-spacing: 3px;
     text-transform: uppercase; }
+    @media (max-width: 1024px) {
+      .testimonials__subtitle {
+        text-align: center; } }
   .testimonials__heading {
     font-weight: 600;
     font-size: 1.6rem;
     color: #253757;
     margin-bottom: 85px; }
+    @media (max-width: 1024px) {
+      .testimonials__heading {
+        margin: 0 auto 85px;
+        max-width: 180px;
+        text-align: center; } }
   .testimonials__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -691,6 +719,9 @@ ul {
     font-size: 0.65rem;
     letter-spacing: 3px;
     text-transform: uppercase; }
+  @media (max-width: 1024px) {
+    .testimonials {
+      padding: 70px 20px; } }
 
 .footer {
   background-color: #fff; }
@@ -699,6 +730,9 @@ ul {
     border-top-right-radius: 200px;
     background-color: #008aff;
     color: #fff; }
+    @media (max-width: 1024px) {
+      .footer__feedback {
+        padding: 130px 20px 200px; } }
   .footer__wrapper {
     position: relative;
     height: 100%; }
